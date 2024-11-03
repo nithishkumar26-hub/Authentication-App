@@ -185,7 +185,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ setIsLogin }) => {
                         className="w-full border mt-4 p-2 rounded-md flex items-center justify-center text-gray-600"
                     >
                         <img src="https://img.icons8.com/color/24/000000/google-logo.png" alt="Google" className="mr-2" />
-                        Sign up with Google
+                        <span className="font-semibold">Sign up with Google</span>
                     </button>
 
                     <p className="text-sm text-gray-500 mt-4 text-center">
